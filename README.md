@@ -61,7 +61,7 @@ Options:
 
 ## [`advancedDoS.py`](./advancedDoS.py)
 
-this addon simulates a scenarion in which the proxy is not available, like the proxy was hit by a DoS attack, by killing all (or matching a filter) requests.
+This addon simulates a scenarion in which the proxy is not available, like the proxy was hit by a DoS attack, by killing all (or matching a filter) requests.
 
 Options:
 
