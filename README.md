@@ -61,7 +61,7 @@ Options:
 
 ## [`advancedDoS.py`](./advancedDoS.py)
 
-Simulate offline mode, like the proxy was hit by a DoS attack, by killing all (or matching a filter) requests.
+this addon simulates a scenarion in which the proxy is not available, like the proxy was hit by a DoS attack, by killing all (or matching a filter) requests.
 
 Options:
 
