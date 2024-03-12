@@ -34,7 +34,7 @@ Options:
 
 ## [`advancedErrors.py`](./advancedErrors.py)
 
-This addon allows to set an error_rate and a [filter](https://docs.mitmproxy.org/stable/concepts-filters/). All flows' responses that match the filter will return a random error HTTP error according to the probability set by the error_rate. In this case error_rate is the percentage of probability for which HTTP error responses are forged for the specific filtered flow.
+This addon allows to set an error_rate and a [filter](https://docs.mitmproxy.org/stable/concepts-filters/). All flows' responses that match the filter will return a random HTTP error response according to the probability set by the error_rate. In this case error_rate is the percentage of probability for which HTTP error responses are forged for the specific filtered flow.
 
 For example, to replace any response from `google.com` with an HTTP error status code with probability equal to 50%:
 
