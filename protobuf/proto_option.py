@@ -1,5 +1,5 @@
 import typing
-import protobuf.proto_deser as proto_deser
+import proto_deser
 import mitmproxy
 
 

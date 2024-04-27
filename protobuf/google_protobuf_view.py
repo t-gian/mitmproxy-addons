@@ -2,7 +2,7 @@ from mitmproxy import contentviews
 from mitmproxy.flow import Flow
 from mitmproxy.http import Message
 from mitmproxy.addonmanager import Loader
-import protobuf.proto_deser as proto_deser
+import proto_deser
 import proto_option
 
 class GoogleProtobufView(contentviews.View):
